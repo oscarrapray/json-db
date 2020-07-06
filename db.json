@@ -1,32 +1,110 @@
 {
     "cursos": [
-        {
+      {
+        "id":1,
+        "titulo": "React desde cero",
+        "image": "https://edteam-media.s3.amazonaws.com/courses/original/f7dad9a6-e060-4305-9adf-b9a9079075de.jpg",
+        "price": 40,
+        "profesor": "Beto Quiroga"
+      },
+      {
+        "id":2,
+        "titulo": "Drupal desde cero",
+        "image": "https://edteam-media.s3.amazonaws.com/courses/original/3c84b04b-4f00-4916-b161-ffe5c6132d19.jpg",
+        "price": 30,
+        "profesor": "Beto Quiroga"
+      }, {
+        "id":3,
+        "titulo": "Go desde cero",
+        "image": "https://edteam-media.s3.amazonaws.com/courses/original/91e149d0-961a-4594-a8ff-0a625be9cdd2.png",
+        "price": 50,
+        "profesor": "Alexys Lozada"
+      }, {
+        "id":4,
+        "titulo": "HTML desde cero",
+        "image": "https://edteam-media.s3.amazonaws.com/courses/original/312172bf-ddba-409b-9aa3-6bf4c758805e.jpg",
+        "price": 10,
+        "profesor": "Alvaro Felipe"
+      },{
+        "id":5,  
+        "titulo":"Business Intelligence",
+          "image":"https://edteam-media.s3.amazonaws.com/courses/original/3eb96c30-4aa8-4227-92dd-095f1e06cefb.png",
+          "price":"50USD",
+          "profesor":"Hazbleydi Verástegui"
+      },{
+        "id":6,  
+        "titulo":"Node.js desde cero",
+          "image":"https://edteam-media.s3.amazonaws.com/courses/original/671fe4c0-bbac-4bbe-8a0e-3fb0811a8353.png",
+          "price":"30USD",
+          "profesor":"Camilo Montoya"
+      }
+    ],
+    "profesores": [
+      {
           "id": 1,
-          "titulo": "React desde cero",
-          "image": "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2019-04/React%20desde%20cero%20%281%29.png",
-          "price": 40,
-          "profesor": "Beto Quiroga"
-        },
-        {
+          "name": "Alvaro Felipe",
+          "picture": "https://api.ed.team/files/avatars/c5514eb4-5e0d-44de-aef2-67bea4160bb4.jpg",
+          "country": "PERU"
+      },
+      {
           "id": 2,
-          "titulo": "Drupal desde cero",
-          "image": "https://drupal.ed.team/sites/default/files/styles/medium/public/courses/images/drupal-poster-720_3.jpg?itok=e93ErhMN",
-          "price": 30,
-          "profesor": "Beto Quiroga"
-        }, 
-        {
+          "name": "Alexys Lozada",
+          "picture": "https://api.ed.team/files/avatars/747dea4d-4438-4a7e-904a-427a5cd6aac7.jpg",
+          "country": "COLOMBIA"
+      },
+      {
           "id": 3,
-          "titulo": "Go desde cero",
-          "image": "https://drupal.ed.team/sites/default/files/styles/medium/public/courses/images/go_0.jpg?itok=k2amLhrN",
-          "price": 50,
-          "profesor": "Alexys Lozada"
-        }, 
-        {
+          "name": "Beto Quiroga",
+          "picture": "https://api.ed.team/files/avatars/38118146-4b4a-4844-8959-157614e04cd1.jpg",
+          "country": "BOLIVIA"
+      },
+      {
           "id": 4,
-          "titulo": "HTML desde cero",
-          "image": "https://drupal.ed.team/sites/default/files/styles/medium/public/courses/images/HTML-2018.jpg?itok=Gyvm-W9t",
-          "price": 10,
-          "profesor": "Alvaro Felipe"
-        }
+          "name": "Camilo Adobe",
+          "picture": "https://api.ed.team/files/avatars/66813820-2857-4af9-b84f-9196acbb832e.jpg",
+          "country": "COLOMBIA"
+      },
+      {
+          "id": 5,
+          "name": "Harold Pajuelo",
+          "picture": "https://api.ed.team/files/avatars/c60e06d6-2e38-4c2a-a3e2-2882ebb503ac.jpg",
+          "country": "PERU"
+      },
+      {
+          "id": 8,
+          "name": "José Dimas Luján",
+          "picture": "https://drupal.ed.team/sites/default/files/styles/perfil_en_views_200x200_/public/pictures/2018-11/lujan.jpg?itok=By-TfmuL",
+          "country": "MÉXICO"
+      },
+      {
+          "id": 9,
+          "name": "Luis Aviles",
+          "picture": "https://drupal.ed.team/sites/default/files/styles/perfil_en_views_200x200_/public/pictures/2017-10/luis-aviles.jpg?itok=haXRY95-",
+          "country": "BOLIVIA"
+      },
+      {
+          "id": 10,
+          "name": "Manuel Rodriguez",
+          "picture": "https://api.ed.team/files/avatars/a32d05c5-06be-4a75-aa6e-839693ac1aca.jpeg",
+          "country": "PERU"
+      },
+      {
+          "id": 12,
+          "name": "Paula Leon",
+          "picture": "https://drupal.ed.team/sites/default/files/imagenes-cdn-edteam/2019-03/paula-leon_400x400.png",
+          "country": "BOLIVIA"
+      },
+      {
+          "id": 13,
+          "name": "Martin Arzuaga",
+          "picture": "https://api.ed.team/files/avatars/89707a5b-ca18-4f96-84cb-f792f5b714ad.jpg",
+          "country": "URUGUAY"
+      },
+      {
+          "id": 14,
+          "name": "Juan Guillermo Gomez",
+          "picture": "https://api.ed.team/files/avatars/b24584ff-5e99-4aac-bb63-064f3ac50c3e.jpg",
+          "country": "COLOMBIA"
+      }
     ]
 }
